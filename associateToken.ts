@@ -7,15 +7,15 @@ import { FireblocksProvider } from "./utils/FireblocksProvider";
 
 
 // Set network (mainnet or testnet)
-const network = 'testnet';
+const network: string = 'testnet';
 
 // Set token ID, for example "0.0.4577248"
-const TOKEN_ID = "<token_id>"
-const privkeyPath = "<path_to_private_key_file>";
-const apiKey = "<api_key>";
+const TOKEN_ID: string = "<token_id>"
+const privkeyPath: string = "<path_to_private_key_file>";
+const apiKey: string = "<api_key>";
 
 // Add your vault account IDs to the array, for example [0, 1, 2]
-const vaultAccountIds = []
+const vaultAccountIds: number[] = []
 
 
 const associateToken = async() => {
