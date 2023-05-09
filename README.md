@@ -17,7 +17,7 @@ npm install
 ```
 4. Make sure that typescript & ts-node are installed globally:
 ```
-sudo npm install -g typscript ts-node
+sudo npm install -g typescript ts-node
 ```
 
 
