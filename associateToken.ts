@@ -5,11 +5,17 @@ import { FireblocksSDK } from 'fireblocks-sdk';
 import { FireblocksProvider } from "./utils/FireblocksProvider";
 
 
+
+// Set network (mainnet or testnet)
 const network = 'testnet';
-const TOKEN_ID = "0.0.4577248"
-const privkeyPath = "/Users/slavaserebriannyi/api_keys/fireblocks_secret.key";
-const apiKey = "d5ce7e80-d6a5-598a-88a3-037660377627";
-const vaultAccountIds = [ 89 , 0 ]
+
+// Set token ID, for example "0.0.4577248"
+const TOKEN_ID = "<token_id>"
+const privkeyPath = "<path_to_private_key_file>";
+const apiKey = "<api_key>";
+
+// Add your vault account IDs to the array, for example [0, 1, 2]
+const vaultAccountIds = []
 
 
 const associateToken = async() => {
