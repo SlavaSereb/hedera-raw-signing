@@ -1,6 +1,6 @@
 # Fireblocks Hedera RAW Signing SDK
 
-##Setup
+### Setup
 
 1. Clone the repository:
 ```
@@ -20,7 +20,8 @@ npm install
 sudo npm install -g typscript ts-node
 ```
 
-##Usage
+
+### Usage
 
 1. Open the ```associateToken.ts``` file and edit the following values:
 ```
